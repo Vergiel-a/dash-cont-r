@@ -10,7 +10,7 @@ name: Dashboard update
 
 jobs:
   Dashboard-update:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       RSCONNECT_USER: ${{ secrets.RSCONNECT_USER }}
