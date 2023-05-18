@@ -24,12 +24,6 @@ jobs:
           r-version: '4.2.0' # The R version to download
           use-public-rspm: true
           
-      - name: Install curl
-        run: sudo apt -y install libcurl4-openssl-dev
-        
-      - name: Install textshaping dependencies
-        run: sudo apt -y install libharfbuzz-dev libfribidi-dev
-
       - name: Cache packages
         uses: actions/cache@v2
         with:
