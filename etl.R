@@ -7,7 +7,6 @@ library(lubridate)
 library(janitor)
 library(purrr)
 library(tidyr)
-library(rlang)
 
 # Define o diretório dos arquivos baixados
 cache_folder = "cache_folder_shiny"
